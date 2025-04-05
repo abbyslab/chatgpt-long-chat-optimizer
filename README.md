@@ -18,6 +18,18 @@ When ChatGPT conversations become very long, the DOM can get overloaded and scro
 
 ## Installation
 
+### For End Users
+
+1.  **Download a Pre-Built Release:** Visit the [Releases](https://github.com/mbeardwell/chatgpt-long-chat-optimizer/releases) section and download the latest ZIP file.
+    
+2.  **Load the Extension:**
+    
+    *   Extract the ZIP.
+        
+    *   Open `chrome://extensions/`, enable **Developer mode**, and click **Load unpacked**.
+        
+    *   Select the extracted folder.
+
 ### For Developers
 
 1. **Clone the Repository:**
@@ -55,20 +67,7 @@ npm install
 ```bash
 npm run watch
 ```
-    
 
-### For End Users
-
-1.  **Download a Pre-Built Release:** Visit the [Releases](https://github.com/mbeardwell/chatgpt-long-chat-optimizer/releases) section and download the latest ZIP file.
-    
-2.  **Load the Extension:**
-    
-    *   Extract the ZIP.
-        
-    *   Open `chrome://extensions/`, enable **Developer mode**, and click **Load unpacked**.
-        
-    *   Select the extracted folder.
-        
 ## Configuration
 
 For production deployments, edit the `config.js` file and set `DEBUG` to `false` to suppress debug logging and reduce console spam:
