@@ -39,10 +39,19 @@ cd chatgpt-long-chat-optimizer
 ```
 
 2.  **Install Dependencies:**
+
+   Install Node.js, e.g. for Debian:
+
+   ```bash
+   sudo apt update
+   sudo apt install nodejs npm
+   ```
+
+   Install project dependencies:
     
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
     
 3.  **Build the Extension:** The project uses Webpack to bundle the modular source code into production‑ready scripts.    
 
